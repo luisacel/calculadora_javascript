@@ -1,0 +1,81 @@
+.bg-color-purple{
+    background: #620096;
+}
+.bg-color-purple-clear{
+    background: #af69cd;
+}
+.bg-color-pink{
+    background: #af7ead;
+}
+.bg-color-pink-clear{
+    background: #d0a3cf;
+}
+.bg-color-blue-dark{
+    background: #2832C2;
+}
+.bg-color-blue{
+    background: #5b77cc;
+}
+.bg-color-blue-ice{
+    background:  #9DCFDD;
+}
+.bg-color-blue-clear{
+    background: #92C5FC;
+}
+
+button{
+    background-position: 100% 20%;
+    color: #af7ead;
+}
+.parallax{
+    background: url("https://thumbs.dreamstime.com/b/fondo-con-n%C3%BAmeros-5186116.jpg");
+    /* Full Height*/
+    height: 85vh;
+    /*vh = 70 viewport height - vw = viewport width*/
+    /* Create the parallax scrollingg effect*/
+    background-attachment: fixed;
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: alternate expansioon 2.5s infinite;
+}
+header h1{
+    font-size: 70 px;
+ 
+    color: rgb(0, 0, 0);
+    animation: alternate expansion-h1 2s infinite ;
+}
+h1, h2{
+    font-family: 'Bad Script', cursive;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  justify-content: center;
+}
+label{
+    font-family: 'Bad Script', cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+    padding: 20px 0px;
+    transition: all 5s;
+    background: #af69cd;
+}
+header h1{
+    font-size: 70 px;
+ 
+    color: black;
+    animation: alternate expansion-h1 2s infinite ;
+}

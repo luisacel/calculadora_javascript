@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Calculadora</title>
+  <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            background: #cf94f7;
+            color: white;
+            
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        form div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-color-purple-clear parallax">
+        <H1>Calculadora</H1>
+        <h2>mi primera calculadora con javascript</h2>
+        </header>
+
+    <form name='formCalculadora' autocomplete="off">
+        <!-- <label for="valor1">Primer Valor</label>
+        <input type="text" id="valor1">
+        <label for="valor2">Segundo Valor</label>
+        <input type="text" id="valor2"> -->
+
+        <label for="resultado">Resultado</label>
+        <input type="text" id="resultado">
+        <hr>
+        <div>
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button">0</button>
+
+        </div>
+        <div>
+            <button type="button">+</button>
+            <button type="button">-</button>
+            <button type="button">*</button>
+            <button type="button">/</button>
+        </div>
+        <div>
+            <button type="button">=</button>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
